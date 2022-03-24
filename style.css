@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Spartan, sans-serif;
+}
+
+.top-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    padding: 1em 2em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 65px;
+}
+
+.links > li > a {
+    color: #454545;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 450px;
+    margin: 132px 0 0 150px;
+    position: relative;
+}
+
+.main h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #1B18F9, #1B18F9, #E146AD);
+    background-clip: text;
+}
+
+.main p {
+    color: #454545;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cta {
+    padding: 1em 1.5em;
+    color: white;
+    background-image: radial-gradient(circle at 90% 5%, #C27FCF, #0368FF 200%);
+    border-radius: 18px;
+}
+
+.watch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.crab {
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+.left-graphic {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.right-side {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    height: 90%;
+}
+.whale-illustration {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.right-graphic {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    height: 100vh;
+}
