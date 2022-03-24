@@ -27,6 +27,11 @@ body {
 
 .links > li > a {
     color: #454545;
+    transition: color 0.35 ease;
+}
+
+.links > li > a:hover {
+    color: #00E8ED;
 }
 
 a {
@@ -73,6 +78,15 @@ a {
     gap: 8px;
 }
 
+.cta,
+.watch {
+    transition: transform 0.35s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.cta:hover,
+.watch:hover {
+    transform: scale(1.1);
+}
 
 .crab {
     position: absolute;
