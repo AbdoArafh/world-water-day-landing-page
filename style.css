@@ -123,3 +123,18 @@ a {
     right: 0;
     height: 100vh;
 }
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+    color: #454545;
+}
+
+.attribution > div > a {
+    color: #00E8ED;
+}
+
+.attribution > div > a:hover {
+    text-decoration: underline;
+}
