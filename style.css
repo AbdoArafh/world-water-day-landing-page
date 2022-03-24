@@ -90,12 +90,14 @@ a {
 
 .crab {
     position: absolute;
+    z-index: -1;
     top: 200px;
     left: 0;
 }
 
 .left-graphic {
     position: absolute;
+    z-index: -1;
     left: 0;
     bottom: 0;
     pointer-events: none;
@@ -103,6 +105,7 @@ a {
 
 .right-side {
     position: absolute;
+    z-index: -1;
     top: 5%;
     right: 0;
     height: 90%;
